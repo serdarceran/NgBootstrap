@@ -9,6 +9,7 @@ import { NavComponent } from './nav/nav.component';
 import { SearchComponent } from './search/search.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { SideComponent } from './side/side.component';
+import { AboutPageComponent } from './about-page/about-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SideComponent } from './side/side.component';
     NavComponent,
     SearchComponent,
     CategoriesComponent,
-    SideComponent
+    SideComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,

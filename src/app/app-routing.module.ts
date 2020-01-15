@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PostContentComponent } from './post-content/post-content.component';
+import { AboutPageComponent } from './about-page/about-page.component';
 
 const routes: Routes = [
   {
@@ -8,6 +9,9 @@ const routes: Routes = [
   },
   {
     path: 'main', component: PostContentComponent
+  },
+  {
+    path: 'about', component: AboutPageComponent
   }
 ];
 
